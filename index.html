@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CarU</title> 
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="favicon_io/apple-touch-icon.png">
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="favicon_io/favicon-32x32.png">
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="favicon_io/site.webmanifest">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous">
+       
+        <link rel="stylesheet" href="styles.css">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+            integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+            crossorigin="anonymous"
+            defer="defer"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg position-fixed w-100 nav-bg">
+            <img
+                src="car-logo/car.png"
+                alt=""
+                id="nav-logo"
+                class="mx-3">
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-3">
+                    <li class="nav-item">
+                        <a class="nav-link hover" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover" aria-current="page" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover" aria-current="page" href="#testimonial">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover" aria-current="page" href="#shop">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover" aria-current="page" href="#insurance">Insurance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  hover" aria-current="page" href="#donation">Donations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover" aria-current="page" href="#contact">Contact Us</a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+        <section class="homepage" id="home">
+            <video loop="loop" muted="muted" autoplay="autoplay" id="bac-vid">
+                <source src="cars/video.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section class="shop" id="shop">
+            <div class="text-center fs-2 fw-bold">CarU SHOP</div>
+            <div class="row text-center ">
+                <div class="col-lg-4">
+                    <img
+                        src="cars/joshua-koblin-eqW1MPinEV4-unsplash.jpg"
+                        alt=""
+                        class="shop-img py-3">
+                    <div class="fs-2 fw-bold ">
+                        <button class="btn btn-sm btn-dark">Buy $867,756</button>
+                        <button class="btn btn-sm btn-danger">Negotiate Price</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img
+                        src="cars/goh-rhy-yan-f_SDCASisgs-unsplash.jpg"
+                        alt=""
+                        class="shop-img py-3">
+                    <div class="fs-2 fw-bold">
+                        <button class="btn btn-sm btn-dark">Buy $453,675</button>
+                        <button class="btn btn-sm btn-danger">Negotiate Price</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img
+                        src="cars/olav-tvedt-6lSBynPRaAQ-unsplash.jpg"
+                        alt=""
+                        class="shop-img py-3">
+                    <div class="fs-2 fw-bold">
+                        <button class="btn btn-sm btn-dark">Buy $256,899</button>
+                        <button class="btn btn-sm btn-danger">Negotiate Price</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="cars/pexels-jae-park-3802510.jpg" alt="" class="shop-img py-3">
+                    <div class="fs-2 fw-bold">
+                        <button class="btn btn-sm btn-dark">Buy $389,000</button>
+                        <button class="btn btn-sm btn-danger">Negotiate Price</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="cars/pexels-mike-b-170811.jpg" alt="" class="shop-img py-3">
+                    <div class="fs-2 fw-bold">
+                        <button class="btn btn-sm btn-dark">Buy $780,000</button>
+                        <button class="btn btn-sm btn-danger">Negotiate Price</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="cars/pexels-mike-b-977003.jpg" alt="" class="shop-img py-3">
+                    <div class="fs-2 fw-bold">
+                        <button class="btn btn-sm btn-dark">Buy $500,000</button>
+                        <button class="btn btn-sm btn-danger">Negotiate Price</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img
+                        src="cars/pexels-prime-cinematics-2036544.jpg"
+                        alt=""
+                        class="shop-img py-3">
+                    <div class="fs-2 fw-bold">
+                        <button class="btn btn-sm btn-dark">Buy $340,000</button>
+                        <button class="btn btn-sm btn-danger">Negotiate Price</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img
+                        src="cars/brayden-law-iBLOPHwOHJE-unsplash.jpg"
+                        alt=""
+                        class="shop-img py-3">
+                    <div class="fs-2 fw-bold">
+                        <button class="btn btn-sm btn-dark">Buy $100,000</button>
+                        <button class="btn btn-sm btn-danger">Negotiate Price</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="cars/pexels-pixabay-39855.jpg" alt="" class="shop-img py-3">
+                    <div class="fs-2 fw-bold">
+                        <button class="btn btn-sm btn-dark">Buy $250,000</button>
+                        <button class="btn btn-sm btn-danger">Negotiate Price</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="row text-center">
+                <div class="col-lg-4">
+                    <i class="fa-solid fa-oil-well fa-3x my-3"></i>
+                    <p class="text-white-50">Oil Change: An oil change is a routine maintenance
+                        service that involves draining the old oil from the engine and replacing it with
+                        fresh oil. This service is performed to keep the engine lubricated, reduce wear
+                        and tear, and improve fuel efficiency.</p>
+                </div>
+                <div class="col-lg-4">
+                    <i class="fas fa-bookmark fa-3x my-3"></i>
+                    <p class="text-white-50">Brake Service: Brake service includes the inspection,
+                        repair, or replacement of brake components such as brake pads, rotors, and
+                        calipers. This service is performed to ensure that the brakes are functioning
+                        properly and to ensure the safety of the vehicle.</p>
+                </div>
+                <div class="col-lg-4">
+                    <i class="fa fa-car fa-3x my-3"></i>
+                    <p class="text-white-50">Tire Services: Tire services include tire rotation,
+                        balance, alignment, and repair. This service is performed to extend the life of
+                        the tires and improve the handling and stability of the vehicle.</p>
+                </div>
+                <div class="col-lg-4">
+                    <i class="fas fa-gauge fa-3x my-3"></i>
+                    <p class="text-white-50">Engine Repair: Engine repair is a service that involves
+                        repairing or replacing damaged engine components. This service is performed when
+                        the engine is not functioning properly and can include repairs such as replacing
+                        a faulty spark plug or fixing a leak in the engine.
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <i class="fas fa-bridge-circle-check fa-3x my-3"></i>
+                    <p class="text-white-50">Suspension Repair: Suspension repair involves repairing
+                        or replacing damaged suspension components such as shocks, struts, and springs.
+                        This service is performed to improve the handling and stability of the vehicle
+                        and to ensure a smooth ride.
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <i class="fa-sharp fa-solid fa-bolt fa-3x my-3"></i>
+                    <p class="text-white-50">Electrical System Repair: Electrical system repair
+                        involves repairing or replacing damaged electrical components such as
+                        alternators, starters, and batteries. This service is performed when the
+                        electrical system is not functioning properly and can include repairs such as
+                        replacing a dead battery or fixing a short in the electrical system.</p>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial text-center" id="testimonial">
+            <h1 class="my-3 fw-bold">Our Happy Customers</h1>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active customer-review">
+                        <img
+                            src="testimonials/aiony-haust-3TLl_97HNJo-unsplash-photoaidcom-cropped.png"
+                            class="d-inline-block  testimonal-image"
+                            alt="...">
+                        <h3 class="fw-bold my-1">Anna Kayla</h3>
+                        <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Reprehenderit rem explicabo, totam quidem libero aspernatur officia
+                            incidunt impedit commodi assumenda maxime voluptatum voluptas a. Libero
+                            voluptate ipsum fugit aspernatur dolorem? Quam quas officia deserunt nihil
+                            voluptatem, obcaecati architecto? Dignissimos sed mollitia consectetur
+                            repellendus! Nihil quod rem ducimus provident molestiae quos fugit quas odio
+                            alias illo delectus, eligendi reiciendis sed ad.</p>
+                    </div>
+                    <div class=" carousel-item customer-review">
+                        <img
+                            src="testimonials/christopher-campbell-rDEOVtE7vOs-unsplash-photoaidcom-cropped (1).png"
+                            class="d-inline-block testimonal-image"
+                            alt="...">
+                        <h3 class="fw-bold my-1">misha bal</h3>
+                        <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Reprehenderit rem explicabo, totam quidem libero aspernatur officia
+                            incidunt impedit commodi assumenda maxime voluptatum voluptas a. Libero
+                            voluptate ipsum fugit aspernatur dolorem? Quam quas officia deserunt nihil
+                            voluptatem, obcaecati architecto? Dignissimos sed mollitia consectetur
+                            repellendus! Nihil quod rem ducimus provident molestiae quos fugit quas odio
+                            alias illo delectus, eligendi reiciendis sed ad.</p>
+                    </div>
+                    <div class=" carousel-item customer-review">
+                        <img
+                            src="testimonials/danie-franco-f49XhYbpiA0-unsplash-photoaidcom-cropped.png"
+                            class="d-inline-block testimonal-image"
+                            alt="...">
+                        <h3 class="fw-bold my-1">jade valour</h3>
+                        <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Reprehenderit rem explicabo, totam quidem libero aspernatur officia
+                            incidunt impedit commodi assumenda maxime voluptatum voluptas a. Libero
+                            voluptate ipsum fugit aspernatur dolorem? Quam quas officia deserunt nihil
+                            voluptatem, obcaecati architecto? Dignissimos sed mollitia consectetur
+                            repellendus! Nihil quod rem ducimus provident molestiae quos fugit quas odio
+                            alias illo delectus, eligendi reiciendis sed ad.</p>
+                    </div>
+                    <div class=" carousel-item customer-review">
+                        <img
+                            src="testimonials/halil-ibrahim-cetinkaya-WzGC8xSyqfg-unsplash-photoaidcom-cropped.jpg"
+                            class="d-inline-block testimonal-image"
+                            alt="...">
+                        <h3 class="fw-bold my-1">jwena gaki</h3>
+                        <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Reprehenderit rem explicabo, totam quidem libero aspernatur officia
+                            incidunt impedit commodi assumenda maxime voluptatum voluptas a. Libero
+                            voluptate ipsum fugit aspernatur dolorem? Quam quas officia deserunt nihil
+                            voluptatem, obcaecati architecto? Dignissimos sed mollitia consectetur
+                            repellendus! Nihil quod rem ducimus provident molestiae quos fugit quas odio
+                            alias illo delectus, eligendi reiciendis sed ad.</p>
+                    </div>
+                    <div class=" carousel-item customer-review">
+                        <img
+                            src="testimonials/joseph-gonzalez-iFgRcqHznqg-unsplash-photoaidcom-cropped (1).jpg"
+                            class="d-inline-block testimonal-image"
+                            alt="...">
+                        <h3 class="fw-bold my-1">jack soap</h3>
+                        <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Reprehenderit rem explicabo, totam quidem libero aspernatur officia
+                            incidunt impedit commodi assumenda maxime voluptatum voluptas a. Libero
+                            voluptate ipsum fugit aspernatur dolorem? Quam quas officia deserunt nihil
+                            voluptatem, obcaecati architecto? Dignissimos sed mollitia consectetur
+                            repellendus! Nihil quod rem ducimus provident molestiae quos fugit quas odio
+                            alias illo delectus, eligendi reiciendis sed ad.</p>
+                    </div>
+                    <div class=" carousel-item customer-review">
+                        <img
+                            src="testimonials/malik-skydsgaard-88LZRbWvkkA-unsplash-photoaidcom-cropped.png"
+                            class="d-inline-block testimonal-image"
+                            alt="...">
+                        <h3 class="fw-bold my-1">Rhiya reid</h3>
+                        <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Reprehenderit rem explicabo, totam quidem libero aspernatur officia
+                            incidunt impedit commodi assumenda maxime voluptatum voluptas a. Libero
+                            voluptate ipsum fugit aspernatur dolorem? Quam quas officia deserunt nihil
+                            voluptatem, obcaecati architecto? Dignissimos sed mollitia consectetur
+                            repellendus! Nihil quod rem ducimus provident molestiae quos fugit quas odio
+                            alias illo delectus, eligendi reiciendis sed ad.</p>
+                    </div>
+                    <div class=" carousel-item customer-review">
+                        <img
+                            src="testimonials/michael-dam-mEZ3PoFGs_k-unsplash-photoaidcom-cropped.png"
+                            class="d-inline-block testimonal-image"
+                            alt="...">
+                        <h3 class="fw-bold my-1">mika meek</h3>
+                        <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Reprehenderit rem explicabo, totam quidem libero aspernatur officia
+                            incidunt impedit commodi assumenda maxime voluptatum voluptas a. Libero
+                            voluptate ipsum fugit aspernatur dolorem? Quam quas officia deserunt nihil
+                            voluptatem, obcaecati architecto? Dignissimos sed mollitia consectetur
+                            repellendus! Nihil quod rem ducimus provident molestiae quos fugit quas odio
+                            alias illo delectus, eligendi reiciendis sed ad.</p>
+                    </div>
+                    <div class=" carousel-item customer-review">
+                        <img
+                            src="testimonials/leonardo-cirimbelli-Ik47LeeGgvo-unsplash-photoaidcom-cropped.png"
+                            class="d-inline-block testimonal-image"
+                            alt="...">
+                        <h3 class="fw-bold my-1">ANdrea mishua</h3>
+                        <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Reprehenderit rem explicabo, totam quidem libero aspernatur officia
+                            incidunt impedit commodi assumenda maxime voluptatum voluptas a. Libero
+                            voluptate ipsum fugit aspernatur dolorem? Quam quas officia deserunt nihil
+                            voluptatem, obcaecati architecto? Dignissimos sed mollitia consectetur
+                            repellendus! Nihil quod rem ducimus provident molestiae quos fugit quas odio
+                            alias illo delectus, eligendi reiciendis sed ad.</p>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-white" aria-hidden="true"></span>
+                        <span class="text-white prev">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="text-white next">Next</span>
+                        <span class="carousel-control-next-icon bg-white" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="partnerships">
+            <div class="text-center">
+
+                <img src="company-logo/Bugatti-logo-1024x768.png" alt="" class="company-logo">
+
+                <img
+                    src="company-logo/Peugeot-logo-2010-1920x1080.png"
+                    alt=""
+                    class="company-logo">
+
+                <img src="company-logo/bmw-logo-1997-1200x1200.png" alt="" class="company-logo">
+
+                <img
+                    src="company-logo/Chevrolet-logo-2013-2560x1440.png"
+                    alt=""
+                    class="company-logo">
+
+                <img src="company-logo/ferrari-logo-750x1100.png" alt="" class="company-logo">
+
+                <img src="company-logo/ford-logo-2003.png" alt="" class="company-logo">
+
+                <img
+                    src="company-logo/lamborghini-logo-1100x1200.png"
+                    alt=""
+                    class="company-logo">
+
+                <img
+                    src="company-logo/Mercedes-Benz-logo-2011-1920x1080.png"
+                    alt=""
+                    class="company-logo">
+
+                <img src="company-logo/porsche-logo-950x1100.png" alt="" class="company-logo">
+
+                <img src="company-logo/tesla-logo-2200x2800.png" alt="" class="company-logo">
+                <h3 class="fw-bold my-2">Happiest Working momments.</h3>
+                <p class=" text-white-50">I once had the honour of fixing Steve jobs car and
+                    redesigning it, highlight of my life!</p>
+                <p class="text-white-50">I've also repaired and remodeled lots of Teslas for my buddy Elon.</p>
+                <h3 class="fw-bold my-2">Worst Working momments.</h3>
+                <p class=" text-white-50">Jeff!, i'm so sorry i kissed your wife, Jeff Bezzoz
+                    caught me smooching his wife, jeff i'm sorry!, He was my highest paying customer
+                    ever.</p>
+                <p class="text-white-50">I Broke Someone's face by mistake with a rench, nose
+                    bleed led to Death, i feel soo bad everyday.</p>
+            </div>
+        </section>
+        <section class="insurance" id="insurance">
+            <div class="row text-center">
+                <h1 class="fw-bold">Our Insurance Plans</h1>
+                <div class="col-lg-3 px-3">
+                    <div class="card text-bg-danger my-3 rounded-5">
+                        <div class="card-header">
+                            <h5>Basic Plan $150/Weekly</h5>
+                        </div>
+                        <div class="card-body text-white-50">
+                            <p>One complete tire set change</p>
+                            <p>One Oil change and car assessment</p>
+                            <p>Car Cleaning Twice</p>
+                            <p>2 Free coffees</p>
+                            <button class="btn btn-md btn-outline-light rounded-5">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 px-3">
+                    <div class="card text-bg-danger my-3 rounded-5">
+                        <div class="card-header">
+                            <h5>Standard Plan $300/Bi-Weekly</h5>
+                        </div>
+                        <div class="card-body text-white-50">
+                            <p>Two complete tire set change</p>
+                            <p>Two Oil change and car assessment</p>
+                            <p>Car Cleaning four times</p>
+                            <p>4 Free coffees</p>
+                            <button class="btn btn-md btn-outline-light rounded-5">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 px-3">
+                    <div class="card text-bg-danger my-3 rounded-5">
+                        <div class="card-header">
+                            <h5>Premium Plan $600/Tri-Weekly</h5>
+                        </div>
+                        <div class="card-body text-white-50">
+                            <p>FIve complete tire set change</p>
+                            <p>Five Oil change and car assessment</p>
+                            <p>Car Cleaning six times</p>
+                            <p>6 Free coffees</p>
+                            <p>Premium waiting room with AC</p>
+                            <button class="btn btn-md btn-outline-light rounded-5">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 px-3">
+                    <div class="card text-bg-danger my-3 rounded-5">
+                        <div class="card-header">
+                            <h5>Silver Plan $1,250/Monthly</h5>
+                        </div>
+                        <div class="card-body text-white-50">
+                            <p>13 complete tire set change</p>
+                            <p>13 Oil change and car assessment</p>
+                            <p>Car Cleaning 10 times</p>
+                            <p>17 Free coffees</p>
+                            <p>Silverclass waiting room with AC &vsome Delicious meals</p>
+                            <p>Special SilverClass Members only card and exclusive access to lounge</p>
+                            <button class="btn btn-md btn-outline-light rounded-5">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 px-3">
+                    <div class="card text-bg-danger my-3 rounded-5">
+                        <div class="card-header">
+                            <h5>Gold Plan $2,600/Bi-Monthly</h5>
+                        </div>
+                        <div class="card-body text-white-50">
+                            <p>30 complete tire set change</p>
+                            <p>28 Oil change and car assessment</p>
+                            <p>Car Cleaning 20 times</p>
+                            <p>35 Free coffees</p>
+                            <p>Goldclass very Private waiting room with AC &vsome Delicious meals, and a big TV</p>
+                            <p>Special GoldClass Members only card and exclusive access to lounge and bars</p>
+                            <p>Access to Exclusive casino</p>
+                            <button class="btn btn-md btn-outline-light rounded-5">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 px-3">
+                    <div class="card text-bg-danger my-3 rounded-5">
+                        <div class="card-header">
+                            <h5>Jade Plan $5,800/Double Bi-Monthly</h5>
+                        </div>
+                        <div class="card-body text-white-50">
+                            <p>60 complete tire set change</p>
+                            <p>58 Oil change and car assessment</p>
+                            <p>Car Cleaning 40 times</p>
+                            <p>72 Free coffees</p>
+                            <p>Jadeclass waiting room with AC &vsome Delicious meals</p>
+                            <p>Special JadeClass Members only card and exclusive access to lounge</p>
+                            <p>Vip access to casino</p>
+                            <p>Free two-time spar treatment</p>
+                            <button class="btn btn-md btn-outline-light rounded-5">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 px-3">
+                    <div class="card text-bg-danger my-3 rounded-5">
+                        <div class="card-header">
+                            <h5>Ruby Plan $10,600/Tripple Tri-Monthly</h5>
+                        </div>
+                        <div class="card-body text-white-50">
+                            <p>120 complete tire set change</p>
+                            <p>110 Oil change and car assessment</p>
+                            <p>Car Cleaning 80 times</p>
+                            <p>140 Free coffees</p>
+                            <p>Ruby class waiting room with AC &vsome Delicious meals</p>
+                            <p>Special Ruby Class Members only card and exclusive access to lounge</p>
+                            <p>Vvip access to casino</p>
+                            <p>Free five-time spar treatment</p>
+                            <p>Car Polishing and Redesign</p>
+                            <button class="btn btn-md btn-outline-light rounded-5">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 px-3">
+                    <div class="card text-bg-danger my-3 rounded-5">
+                        <div class="card-header">
+                            <h5>Diamond Plan $25,000/Yearly</h5>
+                        </div>
+                        <div class="card-body text-white-50">
+                            <p>250 complete tire set change</p>
+                            <p>230 Oil change and car assessment</p>
+                            <p>Car Cleaning 170 times</p>
+                            <p>300 Free coffees</p>
+                            <p>Diamond class waiting room with AC &vsome Delicious meals</p>
+                            <p>Special Diamond Class Members only card and exclusive access to lounge</p>
+                            <p>Vvvip access to casino</p>
+                            <p>Free Ten-time spar treatment</p>
+                            <p>Car Polishing and Redesign</p>
+                            <p>2 man security Detai in casiono</p>
+                            <p>Personal Double female sexy Masseuse</p>
+                            <button class="btn btn-md btn-outline-light rounded-5">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="donations text-center" id="donation">
+            <h3>Donations</h3>
+            <p class="text-white-50">All donations are towards developing more projects and
+                proceeds from the projects go to Different charities and orphanages, We collect
+                all kinds of donations, paypal, payoneer, airtm, and more.</p>
+            <img
+                src="bank-logo/Bank-of-America-Logo-500x281.png"
+                alt=""
+                class="company-logo">
+            <img src="bank-logo/BNP-Paribas-Logo-500x281.png" alt="" class="company-logo">
+            <img src="bank-logo/Deutsche-Bank-Logo-500x281.png" alt="" class="company-logo">
+            <img src="bank-logo/HSBC-Logo-500x281.png" alt="" class="company-logo">
+            <img src="bank-logo/ICBC-Logo-500x281.png" alt="" class="company-logo">
+            <img
+                src="bank-logo/J.P.-Morgan-Chase-Logo-500x281.png"
+                alt=""
+                class="company-logo">
+            <img
+                src="bank-logo/Logo-China-Construction-Bank-Corporation-500x281.png"
+                alt=""
+                class="company-logo">
+            <img
+                src="bank-logo/Logo-First-Financial-Bank-500x281.png"
+                alt=""
+                class="company-logo">
+            <img
+                src="bank-logo/Logo-Mitsubishi-UFJ-Financial-500x281.png"
+                alt=""
+                class="company-logo">
+            <img src="bank-logo/Logo-UnionBank-500x281.png" alt="" class="company-logo">
+            <h3 class="my-3 fs-5">Account Numbers</h3>
+            <p class="d-inline-block mx-2 text-white-50">128383352738</p>
+            <p class="d-inline-block mx-2 text-white-50">928192122938</p>
+            <p class="d-inline-block mx-2 text-white-50">562749378918</p>
+            <p class="d-inline-block mx-2 text-white-50">672828172938</p>
+            <p class="d-inline-block mx-2 text-white-50">118272892938</p>
+            <p class="d-inline-block mx-2 text-white-50">223637382938</p>
+            <p class="d-inline-block mx-2 text-white-50">001622738938</p>
+            <p class="d-inline-block mx-2 text-white-50">827382736338</p>
+            <p class="d-inline-block mx-2 text-white-50">002253637338</p>
+            <p class="d-inline-block mx-2 text-white-50">724367210938</p>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="text-center">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5>contact info</h5>
+                    <p>Phone mumbers:
+                        <br>+1 977-567-1283
+                        <br>+1 377-547-1563
+                        <br>+1 437-387-1103
+                        <br>+1 121-045-1136</p>
+                    <p>Addresses:
+                        <br>
+                        PQ box anana barundi sharp car needle stuff
+                        <br>
+                        PQ buna buba stuff rough tup nah sag
+                        <br>
+                        PQ bar dig code qid bat dag rsf tyr disf
+                        <br>
+                        asd PQ car ard ged tadg hain hdj gad sai fgdh</p>
+                    <p>Email address:
+                        <br>
+                        info@CarU@gmail.com
+                        <br>
+                        info@CarU@Protonmail.com
+                        <br>info@CarU@yahoo.com
+                        <br>info@CarU@varmail.com</p>
+                    <p>Website:
+                        <br>
+                        CarU.com
+                        <br>CarU.co
+                        <br>CarU.ng
+                        <br>Caru.za
+                        <br>CarU.org</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <h5>Social links</h5>
+                    <p>Facebook:
+                        <br>
+                        <a href="www.facebook.com">www.facebook.CarU.com</a>
+                    </p>
+                    <p>Instagram:
+                        <br>
+                        <a href="www.instagram.com">www.instagram.CarU.com</a>
+                    </p>
+                    <p>Twitter:
+                        <br>
+                        <a href="www.twitter.com">www.twitter.CarU.com</a>
+                    </p>
+                    <p>Telegram:
+                        <br>
+                        <a href="www.telegram.com">www.telegram.CarU.com</a>
+                    </p>
+                    <p>Whatsapp:
+                        <br>
+                        <a href="www.whatsapp.com">www.whatsapp.CarU.com</a>
+                    </p>
+                    <p>Tiktok:
+                        <br>
+                        <a href="www.Tiktok.com">www.tiktok.CarU.com</a>
+                    </p>
+                    <p>Youtube:
+                        <br>
+                        <a href="www.Youtube.com">www.Youtube.CarU.com</a>
+                    </p>
+                </div>
+                <div class="col-lg-4 text-end">
+                    <h5>About us</h5>
+                    <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Deserunt doloribus mollitia adipisci alias autem exercitationem
+                        consequuntur odio ab sed saepe itaque laboriosam aut dicta vero, tempora
+                        cupiditate illum nulla soluta. Explicabo minima deserunt, et quidem vel hic
+                        velit iure quis pariatur veniam voluptatibus? Sit incidunt ipsum repellendus
+                        dolore nesciunt nihil illum vitae numquam? Est, amet omnis inventore culpa
+                        accusamus laboriosam? Quis odio dolorem, nisi rerum consectetur impedit earum
+                        dolore. Incidunt, quod. Ea, vel, mollitia, iusto quod consectetur aperiam labore
+                        reiciendis voluptatibus dignissimos quaerat quasi dolorum molestias. Sapiente
+                        impedit autem odio. Fugiat saepe atque perspiciatis, nobis aliquam hic
+                        voluptate! Laudantium illo dolorem praesentium tempora ratione iste ipsum sint
+                        dignissimos eius fuga? Ex odit amet unde reiciendis quaerat. Aperiam officiis
+                        aut ipsum? Libero eos impedit velit aspernatur, rem minus laboriosam modi beatae
+                        repellendus consectetur, delectus dignissimos natus repellat ad molestias quis
+                        quas! Debitis labore id deserunt possimus, itaque officia provident molestias
+                        excepturi.</p>
+                </div>
+            </div>
+        </section>
+        <div class="footer text-center">
+            <h6>@Copyright CarU @2023, Read our
+                <a href="www.termsandcondition.com">terms and conditions.</a>
+            </h6>
+        </div>
+    </body>
+</html>
